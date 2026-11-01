@@ -1,0 +1,88 @@
+{
+ "format": "kizuato-re-patch/1",
+ "game": "DualSoul",
+ "lang": "en",
+ "version": "2026.10.31",
+ "created": "2026-10-31T23:17:09.998Z",
+ "title": "Dual Soul — English translation",
+ "requires": "your own copy of Dual Soul (AIL 1995, PC-98), hard-disk image (.hdi) with the DUALSOUL folder",
+ "credits": [
+  "Dual Soul EN",
+  "Original game © AIL.",
+  "Made with Kizuato Studio"
+ ],
+ "files": [
+  {
+   "path": "DUALSOUL/DUALSOUL/SALL.SNL",
+   "patch": "DUALSOUL_SALL.SNL.bps",
+   "source": {
+    "size": 321238,
+    "crc32": "31a5c5e3"
+   },
+   "target": {
+    "size": 349942,
+    "crc32": "26f2f488"
+   }
+  },
+  {
+   "path": "DUALSOUL/DUALSOUL/ADV.EXE",
+   "patch": "DUALSOUL_ADV.EXE.bps",
+   "source": {
+    "size": 91616,
+    "crc32": "ba2f72b5"
+   },
+   "target": {
+    "size": 91616,
+    "crc32": "73d3e2a7"
+   }
+  },
+  {
+   "path": "DUALSOUL/DUALSOUL/SAVE00.DAT",
+   "patch": "DUALSOUL_SAVE00.DAT.bps",
+   "source": {
+    "size": 72,
+    "crc32": "1301d553"
+   },
+   "target": {
+    "size": 72,
+    "crc32": "1cc0b00d"
+   }
+  },
+  {
+   "path": "DUALSOUL/DUALSOUL/SYSTEM.GRA",
+   "patch": "DUALSOUL_SYSTEM.GRA.bps",
+   "source": {
+    "size": 164161,
+    "crc32": "e9722b71"
+   },
+   "target": {
+    "size": 172604,
+    "crc32": "e143872e"
+   }
+  },
+  {
+   "path": "DUALSOUL/DUALSOUL/PALL1.GRP",
+   "patch": "DUALSOUL_PALL1.GRP.bps",
+   "source": {
+    "size": 251019,
+    "crc32": "e5657bba"
+   },
+   "target": {
+    "size": 259137,
+    "crc32": "7e2f0be4"
+   }
+  },
+  {
+   "path": "DUALSOUL/DUALSOUL/PALL6.GRP",
+   "patch": "DUALSOUL_PALL6.GRP.bps",
+   "source": {
+    "size": 41748,
+    "crc32": "fdbe7a01"
+   },
+   "target": {
+    "size": 55141,
+    "crc32": "080e0325"
+   }
+  }
+ ]
+}
