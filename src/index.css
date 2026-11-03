@@ -398,6 +398,31 @@ html, body, #root {
   color: rgba(255, 255, 255, 0.55);
 }
 
+.patch-applies {
+  margin: 0 0 14px;
+  padding: 8px 10px;
+  border-left: 3px solid var(--accent);
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.patch-applies dt {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.patch-applies dd {
+  margin: 0 0 6px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.patch-applies dd:last-child {
+  margin-bottom: 0;
+}
+
 .patch-drop {
   width: 100%;
   display: flex;
@@ -637,4 +662,18 @@ html, body, #root {
   .side-open {
     top: 74px;
   }
+}
+
+/* YouTube video under the right panel, always visible */
+.panel-video {
+  flex: none;
+  padding: 12px 16px 16px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.panel-video iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
 }

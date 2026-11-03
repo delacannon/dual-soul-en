@@ -102,6 +102,16 @@ export function PatchPanel() {
       </header>
       <div className="patch-body">
         <p>Play Dual Soul in English. You need your own hard-disk copy of the game.</p>
+        <dl className="patch-applies">
+          <dt>Applies to</dt>
+          <dd>
+            Dual Soul (AIL, 1995)
+            <br />
+            PC-98 hard-disk version (DUALSOUL folder)
+          </dd>
+          <dt>Tested</dt>
+          <dd>On emulator only</dd>
+        </dl>
         <button
           className={over ? 'patch-drop over' : 'patch-drop'}
           disabled={working}
@@ -159,6 +169,16 @@ export function PatchPanel() {
         <a className="patch-kofi" href="https://ko-fi.com/alammo" target="_blank" rel="noreferrer">
           ♥ Support on Ko-fi
         </a>
+      </div>
+      <div className="panel-video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/ACS8qJep6jE"
+          title="Dual Soul — video"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
       </div>
     </aside>
   );
